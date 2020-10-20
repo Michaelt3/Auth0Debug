@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template-rows: 1fr 0.4fr;
+  height: 100%;
+}
+
+.mapcontainer {
+  overflow: hidden;
+  position: relative;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.fleetgraphs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+}
+.fleetgraphs > div {
+  height: 90%;
+  width: 100%;
+}
+
+.chartjs-render-monitor {
+  height: 100% !important;
+  width: 100% !important;
+}
