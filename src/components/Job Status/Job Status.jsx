@@ -274,5 +274,5 @@ class JobStatus extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyCazciJn8fSTA8pqO66O5VEfuHU6CZcq8M",
+  apiKey: "",
 })(JobStatus);
